@@ -162,7 +162,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the Predictive Model CLI
-The repository includes the pre-processed `data/integrated_luad_dataset.csv`, allowing you to run cross-validation and evaluation immediately:
+The repository includes the pre-processed `data/integrated_luad_dataset.csv` (derived strictly from the Open Access Tier of cBioPortal TCGA PanCanAtlas 2018, containing de-identified clinical records, curated somatic mutations, and normalized mRNA-seq RSEM levels; see [data/README.md](data/README.md)):
 ```bash
 python src/model.py --data data/integrated_luad_dataset.csv
 ```
